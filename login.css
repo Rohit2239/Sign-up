@@ -1,0 +1,66 @@
+body
+{  padding: 0;
+    margin: 0;
+    font-family: 'Tilt Neon', sans-serif;
+    background-image: linear-gradient(red,black);
+}
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+}
+#main{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+form{
+  background-color: rgb(255, 255, 0);
+  width: 25%;
+  border-radius: 5px;
+  padding: 20px;
+  color: black;
+ 
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: crimson
+}
+#new{
+    text-align: center;
+}
+#rr{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(85, 85, 189, 0.856);
+    font-size: 15px;
+}
+#oo{
+    background-color: aqua;
+}
+#rr
+{
+    position: relative;
+}
+.fa-solid{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
